@@ -6,6 +6,7 @@ import App from './modules/App';
 import About from './modules/About/About';
 import Home from './modules/Home/Home';
 import Examples from './modules/Examples/Examples';
+import Collision from './modules/Collision/Collision';
 
 ReactDOM.render((
     <HashRouter>
@@ -15,13 +16,13 @@ ReactDOM.render((
                     <Link to="/">Index</Link>
                     <Link to="/home">Home</Link>
                     <Link to="/about">About</Link>
-                    <Link to="/examples">Examples</Link>
+                    <Link to="/collision">比对碰撞</Link>
                 </li>
             </ul>
             <Route exact path="/" component={ App }></Route>
             <Route path="/about" component={ About }></Route>
             <Route path="/home" component={ Home }></Route>
-            <Route path="/examples" component={ Examples }></Route>
+            <Route path="/collision" component={ Collision }></Route>
         </div>
     </HashRouter>
 ), document.getElementById('root'));
