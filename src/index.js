@@ -6,7 +6,7 @@ import App from './modules/App';
 import About from './modules/About/About';
 import Home from './modules/Home/Home';
 import Examples from './modules/Examples/Examples';
-import Collision from './modules/Collision/Collision';
+import ThreeDemo from './modules/ThreeDemo/ThreeDemo';
 
 ReactDOM.render((
     <HashRouter>
@@ -16,13 +16,13 @@ ReactDOM.render((
                     <Link to="/">Index</Link>
                     <Link to="/home">Home</Link>
                     <Link to="/about">About</Link>
-                    <Link to="/collision">比对碰撞</Link>
+                    <Link to="/threedemo">这是一个three示例</Link>
                 </li>
             </ul>
             <Route exact path="/" component={ App }></Route>
             <Route path="/about" component={ About }></Route>
             <Route path="/home" component={ Home }></Route>
-            <Route path="/collision" component={ Collision }></Route>
+            <Route path="/threedemo" component={ ThreeDemo }></Route>
         </div>
     </HashRouter>
 ), document.getElementById('root'));
