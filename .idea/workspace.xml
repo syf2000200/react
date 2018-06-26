@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="40620c7c-8a5f-4eea-9edc-56d7094931e0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Collision/Collision.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Collision/Collision.js" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -281,12 +278,20 @@
       <workItem from="1524117304193" duration="244000" />
       <workItem from="1526540421007" duration="428000" />
       <workItem from="1526547574677" duration="795000" />
-      <workItem from="1529997513597" duration="92000" />
+      <workItem from="1529997513597" duration="152000" />
     </task>
+    <task id="LOCAL-00001" summary="three">
+      <created>1529997662774</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1529997662774</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20919000" />
+    <option name="totallyTimeSpent" value="20979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -337,6 +342,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="three" />
+    <option name="LAST_COMMIT_MESSAGE" value="three" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
