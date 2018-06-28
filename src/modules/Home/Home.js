@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from '../../logo.svg';
 import '../App.css';
 import { Table, Button } from 'antd';
 import 'rc-table/assets/index.css';
@@ -39,9 +38,9 @@ class Home extends Component {
     onSelectChange = (selectedRowKeys) => {
         console.log('selectedRowKeys changed: ', selectedRowKeys);
         this.setState({ selectedRowKeys });
-    }
+    };
     render() {
-        const { loading, selectedRowKeys } = this.state;
+        const { selectedRowKeys } = this.state;
         const rowSelection = {
             selectedRowKeys,
             onChange: this.onSelectChange,
